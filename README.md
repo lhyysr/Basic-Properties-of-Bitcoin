@@ -1,0 +1,7 @@
+# Basic-Properties-of-Bitcoin
+Basic properties Bitcoin and its relationship to Poisson and Geometric distributions.
+
+# What is Bitcoin?
+Bitcoin a digital currency initially introduced by "Satoshi Nakamoto" in early 2008. While Bitcoin is incredibly fascinating in regards to philosophy and implementation, this lab will focus on how Bitcoin is mined.  
+Bitcoin is similar to objects with "intrinsic" value which are obtained through physical labor such as gold. While there are many reasons why gold has become socially accepted as an object instilled with intrinsic value, it can be partially attributed to its scarcity and traditional difficulty of acquisition. For starters, if we were to acquire all of the gold in the world, and melt it down, it would fit in about 3:5 Olympic regulation sized pools. Second, the process of mining gold is costly and physically difficult. You need to smack a rock with a pickax until you strike gold.  
+In order to simulate this level of exertion, Bitcoin bases its algorithm for mining off of a proof of work scheme, where instead of physically exerting oneself as in the case of gold mining, Bitcoin miners compute something that requires a considerable investment in the way of hardware, power, and time. The actual proof of work scheme involves nding an input to the SHA-256 hash function that has n leading zeros. (So, the miner needs to find some x such that y =SHA256(x) where the first n bits of y are zero.)
